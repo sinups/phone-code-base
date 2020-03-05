@@ -89,4 +89,4 @@ function downloadTextFile(text, name) {
 }
 downloadTextFile(JSON.stringify(table), 'phones-data.json');
 ```
-### Парсер номеров с сайта [Json to Csv](http://convertcsv.com//)
+### Конвертируйте ваши json в формат csv  [Json to Csv](http://convertcsv.com//)
