@@ -17,9 +17,30 @@ window.scrollTo(0, document.body.scrollHeight);
 ```js
 clearInterval(loadPage)
 ```
-#### Delete node element from dom
+#### Удалите этот элемент из дома
 ```html
  <tfoot class="bottom_panel">
+```
+
+#### Переименуйте header таблицы прямо в доме
+```html
+<th>&nbsp;</th>
+<th>Код</th>
+<th>Страна</th>
+<th>Регион</th>
+<th>Город</th>
+<th>Оператор</th>
+<th>Добавлено</th></tr>
+```
+##### На
+```html
+<th>&nbsp;</th>
+<th>code</th>
+<th>country</th>
+<th>region</th>
+<th>city</th>
+<th>operator</th>
+<th>added</th></tr>
 ```
 #### Вставить в консоли 
 ```js
